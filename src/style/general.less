@@ -1,0 +1,75 @@
+h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+
+    &:hover,
+    &:visited,
+    &:focus {
+        outline: none;
+        border: none;
+    }
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#main {
+    background: url(../assets/waterchair.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+    overflow: auto;
+    overflow-x: hidden;
+    overflow-scrolling: touch;
+    -webkit-overflow-scrolling: touch;
+    -moz-overflow-scrolling: touch;
+    -ms-overflow-scrolling: touch;
+}
+
+.wrapper {
+    position: relative;
+    margin: 0 10px;
+
+    h1 {
+        color: #ffffff;
+        text-align: left;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        border-bottom: 1px #fff solid;
+        font-family: 'Noto Serif', serif;
+    }
+
+    p {
+        font-family: 'Noto Serif', serif;
+        font-size: 1.2rem;
+        color: #ffffff;
+        font-style: italic;
+    }
+}
+
+.clearfix {
+    clear: both;
+}
+
+.alert > div > div {
+    padding: 0 10px;
+}
+
+@media screen and (min-width: 600px) {
+    .wrapper {
+        margin: 0 auto;
+        width: 500px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .wrapper {
+        width: 960px;
+    }
+}

@@ -1,0 +1,43 @@
+.quotes {
+    color: #666666;
+
+    h1 {
+        color: #666666;
+        padding-top: 25%;
+    }
+
+    .quote {
+        font-family: 'Noto Serif', serif;
+        margin: 50px 0;
+
+        .quote-open, .quote-close {
+            font-size: 15px;
+            padding: 0 10px;
+            display: inline-block;
+            float: left;
+        }
+
+        .quote-open {
+            padding-top: 20px;
+        }
+
+        .content {
+            font-size: 28px;
+            font-style: italic;
+            display: inline-block;
+            float: left;
+        }
+
+        .author {
+            &:before {
+                display: block;
+                content: ' ';
+                clear: both;
+                padding-top: 25px;
+            }
+
+            display: block;
+            text-align: right;
+        }
+    }
+}
