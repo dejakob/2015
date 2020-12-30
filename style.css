@@ -1,0 +1,285 @@
+.cc-mark {
+  font-size: 30px;
+  color: #ffffff;
+  cursor: pointer;
+  opacity: 0.5;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+.cc-mark:hover {
+  opacity: 1;
+}
+@media screen and (min-width: 600px) {
+  .cc-mark {
+    font-size: 100px;
+    bottom: 15px;
+    left: 15px;
+    position: absolute;
+  }
+}
+
+@font-face {
+  font-family: 'Conv_digital-7';
+  src: url('fonts/digital-7.eot');
+  src: local('☺'), url('fonts/digital-7.woff') format('woff'), url('fonts/digital-7.ttf') format('truetype'), url('fonts/digital-7.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.font-digital {
+  font-family: 'Conv_digital-7', sans-serif;
+  font-weight: 100;
+}
+
+h1 {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+a:hover,
+a:visited,
+a:focus {
+  outline: none;
+  border: none;
+}
+body {
+  overflow-x: hidden;
+}
+#main {
+  background: url(../assets/waterchair.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  width: 100%;
+  overflow: auto;
+  overflow-x: hidden;
+  overflow-scrolling: touch;
+  -webkit-overflow-scrolling: touch;
+  -moz-overflow-scrolling: touch;
+  -ms-overflow-scrolling: touch;
+}
+.wrapper {
+  position: relative;
+  margin: 0 10px;
+}
+.wrapper h1 {
+  color: #ffffff;
+  text-align: left;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px #fff solid;
+  font-family: 'Noto Serif', serif;
+}
+.wrapper p {
+  font-family: 'Noto Serif', serif;
+  font-size: 1.2rem;
+  color: #ffffff;
+  font-style: italic;
+}
+.clearfix {
+  clear: both;
+}
+.alert > div > div {
+  padding: 0 10px;
+}
+@media screen and (min-width: 600px) {
+  .wrapper {
+    margin: 0 auto;
+    width: 500px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .wrapper {
+    width: 960px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.facebook {
+  float: left;
+  display: block;
+  position: relative;
+  min-height: 100px;
+  margin-bottom: 50px;
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.facebook .item-image {
+  background: rgba(0, 0, 0, 0.9);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.facebook .item-description {
+  position: relative;
+  background-color: #3b5998;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 10px;
+}
+.facebook img {
+  width: 100%;
+}
+.facebook .small {
+  font-size: 12px;
+}
+.facebook .fa-facebook {
+  color: #fff;
+  opacity: 0.8;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 40px;
+  margin-right: 10px;
+  margin-bottom: 6px;
+}
+
+.full-preview {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.link-game {
+  position: relative;
+}
+.link-game:before,
+.link-game:after {
+  display: block;
+  content: ' ';
+  clear: both;
+}
+.link-game button {
+  position: absolute;
+  background: none;
+  display: block;
+  border: 1px #fff solid;
+  padding: 5px 10px;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.note {
+  background-color: #00500B;
+  margin-top: 0;
+  margin-bottom: 20px;
+  clear: both;
+  padding: 20px;
+  font-family: 'Slabo 27px', serif;
+  color: #fff;
+}
+
+.slide .wrapper:last-child {
+  padding-bottom: 25%;
+}
+
+.slide-content {
+  overflow: visible;
+  position: relative;
+}
+
+.tweet {
+  float: left;
+  display: block;
+  position: relative;
+  margin-bottom: 50px;
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.tweet .item-image {
+  background: rgba(0, 0, 0, 0.9);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.tweet .item-description {
+  background-color: #55acee;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 10px;
+}
+.tweet img {
+  width: 100%;
+}
+.tweet .small {
+  font-size: 12px;
+}
+.tweet .fa-twitter {
+  color: #fff;
+  opacity: 0.8;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 50px;
+  margin-right: 10px;
+  margin-bottom: 6px;
+}
+
+.arrow-down {
+  color: #ffffff;
+  font-size: 36px;
+  bottom: 15%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  opacity: 0.2;
+}
+
+.showpad-logo {
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+.quotes {
+  color: #666666;
+}
+.quotes h1 {
+  color: #666666;
+  padding-top: 25%;
+}
+.quotes .quote {
+  font-family: 'Noto Serif', serif;
+  margin: 50px 0;
+}
+.quotes .quote .quote-open,
+.quotes .quote .quote-close {
+  font-size: 15px;
+  padding: 0 10px;
+  display: inline-block;
+  float: left;
+}
+.quotes .quote .quote-open {
+  padding-top: 20px;
+}
+.quotes .quote .content {
+  font-size: 28px;
+  font-style: italic;
+  display: inline-block;
+  float: left;
+}
+.quotes .quote .author {
+  display: block;
+  text-align: right;
+}
+.quotes .quote .author:before {
+  display: block;
+  content: ' ';
+  clear: both;
+  padding-top: 25px;
+}
